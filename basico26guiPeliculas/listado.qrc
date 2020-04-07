@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="listado">
+    <file>listado.png</file>
+  </qresource>
+</RCC>

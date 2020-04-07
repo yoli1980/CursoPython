@@ -1,0 +1,2 @@
+SQL_INSERCION_PELICULA = "INSERT INTO `tabla_peliculas` (`id`, `titulo`, `anio`, `duracion`, `pais`, `reparto`, `genero`, `sinopsis`) VALUES (NULL, %s, %s, %s, %s, %s, %s, %s);"
+SQL_SELECT_PELICULAS = "SELECT * FROM tabla_peliculas"

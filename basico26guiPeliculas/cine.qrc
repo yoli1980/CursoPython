@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="cine">
+    <file>palomitas.png</file>
+    <file>cine.png</file>
+  </qresource>
+</RCC>
