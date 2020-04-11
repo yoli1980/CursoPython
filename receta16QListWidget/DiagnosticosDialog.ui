@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DiagnosticosDialog</class>
+ <widget class="QDialog" name="DiagnosticosDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>311</width>
+    <height>211</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Diagnósticos</string>
+  </property>
+  <widget class="QLabel" name="lbl_seleccion_diagnostico">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>171</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Seleccione el diagnóstico:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_resultado">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string> </string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="lst_diagnosticos">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>256</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Rayos X 5 - euros</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nivel de azúcar - 3 euros</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Prueba de hemoglobina - 7 euros</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Análisis de orina - 8 euros</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Análisis del PSA - 10 euros</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
